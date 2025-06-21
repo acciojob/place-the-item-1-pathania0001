@@ -1,5 +1,6 @@
 
-/* Your CSS Code here. */.holder {
+/* Your CSS Code here. */
+.holder {
   display: flex;
   flex-wrap: wrap;                 /* Allow items to wrap */
   justify-content: space-between; /* Space between items */
