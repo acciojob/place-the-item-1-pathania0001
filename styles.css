@@ -1,2 +1,17 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */.holder {
+  display: flex;
+  flex-wrap: wrap;                 /* Allow items to wrap */
+  justify-content: space-between; /* Space between items */
+  padding: 10px;                   /* Optional padding */
+}
+
+.item {
+  min-width: 150px;                /* Prevent squashing */
+  margin-bottom: 10px;             /* Space between rows */
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
